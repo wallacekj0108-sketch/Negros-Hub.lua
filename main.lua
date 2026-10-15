@@ -1,3 +1,8 @@
+print("Negros Hub: iniciou")
+
+task.wait(3)
+
+print("Negros Hub: passou da inicialização")
 task.spawn(function()
     repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
     task.wait(1)
